@@ -27,6 +27,10 @@
 
 - 속성과 행동을 덧붙인다. 재귀적으로.
 
+![1.png](1.png)
+
+![2.png](2.png)
+
 ```java
 // Abstract class for beverage
 public abstract class Beverage {
