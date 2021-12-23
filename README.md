@@ -130,7 +130,7 @@ public abstract Duck {
 
 ### 장점
 
-- OCP를 만족한다.
+- OCP를 만족한다. (강력한 특성)
 
 #### Open Closed Principle
 
@@ -144,7 +144,7 @@ public abstract Duck {
 	- 여전히 자잘한 class가 많고, class 구조를 단번에 이해하기 어렵다. (p.139)
 	- 1번의 instantiation에 데코레이터를 많이 덧붙일 수록 코드가 복잡해진다. (p.141)
 - 실행 코드의 관점에서 instance에 어떤 데코레이터가 적용되었는지 알기 어렵다.
-	- 실행 코드가 instance의 형식(아마도 type 등)에 민감하다면 이 패턴을 적용하기 ㅇ어렵다.
+	- 실행 코드가 instance의 형식(아마도 type 등)에 민감하다면 이 패턴을 적용하기 어렵다.
 - Instance에 속성을 덧붙이는 것은 자유롭지만, runtime에서의 제거 및 변경에는 유연하지 않다.
 	- Class define을 획기적으로 줄일 수 있으나, runtime 수준에서의 과도한 자유를 의도한 패턴이 아니다.
 
